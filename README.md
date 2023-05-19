@@ -6,11 +6,13 @@ As the number of cars in Jordan keeps going up, it becomes increasingly difficul
 
 # Approach
 To detect the license plate number, the following things need to be done:
+
      1.The license plate needs to be detected and extracted from the overall image. This is done by using object detection method like using You-Only-Look-Once (YOLO).
      2. After extracting the license plate, individual characters of LP number need to be recognized, this is done by using Optical Character Recognition Techique (OCR).
      3. The last phase is to retrieve the Owner's and Vehicle's information of the recognized LP by connecting it to the database.
 # Dataset
 The following datasets have been used for different purposes:
+
     1.For license plate detection (YOLO): The dataset contains approximately 1300 annotated images of vehicle with license plates.The dataset can be found in folder "OpenSooq
     dataset" which includes the images of JPEG format and the annotated text files.
     2.For character recognition(OCR): The dataset contains approximately 508 cropped license plate that was previously detected and extracted by YOLO. The dataset can be found in
