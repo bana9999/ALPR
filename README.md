@@ -13,10 +13,8 @@ To detect the license plate number, the following things need to be done:
 The following datasets have been used for different purposes:
     1.For license plate detection (YOLO): The dataset contains approximately 1300 annotated images of vehicle with license plates.The dataset can be found in folder "OpenSooq
     dataset" which includes the images of JPEG format and the annotated text files.
-    
     2.For character recognition(OCR): The dataset contains approximately 508 cropped license plate that was previously detected and extracted by YOLO. The dataset can be found in
     folder named "OCR LP".
-    
     3.For testing the whole model: The dataset contains about 250 images of vehicle's with license plates that was collected from Roboflow. The dataset can be found in folder
     named "Online Dataset".
     
