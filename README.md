@@ -15,13 +15,23 @@ The following datasets have been used for different purposes:
 
     1.For license plate detection (YOLO): The dataset contains approximately 1300 annotated images of vehicle with license plates.The dataset can be found in folder "OpenSooq
     dataset" which includes the images of JPEG format and the annotated text files.
-    2.For character recognition(OCR): The dataset contains approximately 508 cropped license plate that was previously detected and extracted by YOLO. The dataset can be found in
-    folder named "OCR LP".
+    2.For character recognition(OCR): The dataset contains approximately 508 cropped license plate that was previously detected and extracted by YOLO. The dataset can be found 
+    in  folder named "OCR LP".
     3.For testing the whole model: The dataset contains about 250 images of vehicle's with license plates that was collected from Roboflow. The dataset can be found in folder
     named "Online Dataset".
     
     
 # Technologies/Languages Used
+Python: This is the most sought language for implementing AI projects.
+IDE: We used Jupter Notebook for this project.
+OpenCV: OpenCV is a library of programming functions mainly aimed at real-time computer vision. It eases the work when projects are based primarily on images or videos.
+Tensorflow: TensorFlow is a free and open-source software library for machine learning. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.
+Keras: Keras is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
+YOLOv5: YOLOv5 (You Only Look Once, Version 5) is a real-time object detection algorithm that identifies specific objects in videos, live feeds, or images.
+Scikit-Learn: It is a free software machine learning library for the Python programming language.
+Matplotlib: Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
+Imutils: A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV.
+Tkinter: is a standard Python library used for creating graphical user interfaces (GUIs). It provides a set of tools and widgets for building interactive applications. Tkinter is based on the Tk GUI toolkit, which originated as a part of the Tcl scripting language.
 
 # Methodolgy
 
