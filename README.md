@@ -23,6 +23,7 @@ The following datasets have been used for different purposes:
     
 # Technologies/Languages Used
 
+
 Python: This is the most sought language for implementing AI projects.
 IDE: We used Jupter Notebook for this project.
 OpenCV: OpenCV is a library of programming functions mainly aimed at real-time computer vision. It eases the work when projects are based primarily on images or videos.
