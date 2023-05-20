@@ -22,17 +22,19 @@ The following datasets have been used for different purposes:
     
     
 # Technologies/Languages Used
-
-1.Python: This is the most sought language for implementing AI projects.
-2.IDE: We used Jupter Notebook for this project.
-3.OpenCV: OpenCV is a library of programming functions mainly aimed at real-time computer vision. It eases the work when projects are based primarily on images or videos.
-4.Tensorflow: TensorFlow is a free and open-source software library for machine learning. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.
-5.Keras: Keras is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
-6.yOLOv5: YOLOv5 (You Only Look Once, Version 5) is a real-time object detection algorithm that identifies specific objects in videos, live feeds, or images.
-7.Scikit-Learn: It is a free software machine learning library for the Python programming language.
-8.Matplotlib: Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
-9.Imutils: A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV.
-10.Tkinter: is a standard Python library used for creating graphical user interfaces (GUIs). It provides a set of tools and widgets for building interactive applications. Tkinter is based on the Tk GUI toolkit, which originated as a part of the Tcl scripting language.
+   1.Python: This is the most sought language for implementing AI projects.
+   2.IDE: We used Jupter Notebook for this project.
+   3.OpenCV: OpenCV is a library of programming functions mainly aimed at real-time computer vision. It eases the work when projects are based primarily on images or videos.
+   4.Tensorflow: TensorFlow is a free and open-source software library for machine learning. It can be used across a range of tasks but has a particular focus on training and
+   inference of deep neural networks.
+   5.Keras: Keras is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
+   6.yOLOv5: YOLOv5 (You Only Look Once, Version 5) is a real-time object detection algorithm that identifies specific objects in videos, live feeds, or images.
+   7.Scikit-Learn: It is a free software machine learning library for the Python programming language.
+   8.Matplotlib: Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
+   9.Imutils: A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images,
+   sorting contours, detecting edges, and much more easier with OpenCV.
+   10.Tkinter :is a standard Python library used for creating graphical user interfaces (GUIs). It provides a set of tools and widgets for building interactive applications. 
+`
 
 # Methodolgy
 
