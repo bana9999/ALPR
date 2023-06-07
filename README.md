@@ -36,7 +36,8 @@ Requests: used for making HTTP requests and working with web APIs. It provides a
 Torch: is a popular open-source machine learning framework primarily used for deep learning tasks. It provides a flexible and efficient platform for building, training, and deploying various neural network models.
 Tkinter: is a standard Python library used for creating graphical user interfaces (GUIs). It provides a set of tools and widgets for building interactive applications.`
 
-# Methodolgy
+# Main Technologies used
+# Testing the ALPR system 
 
 
 
