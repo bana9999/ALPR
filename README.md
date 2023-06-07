@@ -36,5 +36,6 @@ Torch: is a popular open-source machine learning framework primarily used for de
 Tkinter: is a standard Python library used for creating graphical user interfaces (GUIs). It provides a set of tools and widgets for building interactive applications.`
 
 # Methodolgy
+![ALPR_Login_page](https://github.com/bana9999/ALPR/assets/129235769/d09f64d0-a54c-4eca-8288-358f8ab77168)
 
 
