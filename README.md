@@ -45,7 +45,7 @@ Tkinter: is a standard Python library used for creating graphical user interface
 To test the ALPR system , first install and run the ALPR system , so please refer to the following guide:
 Step 1:Download and install the Visual Studio Integrated Development Environment (IDE), from the following link:{https://code.visualstudio.com/download}.
 Step 2: Download and install Git from the following link:{https://git-scm.com/downloads}.
-Step 3: Open the previously installed Visual Studio code, navigate to the left-hand side of the VS Code window, and access the Extensions Marketplace. Install the Python support and Git support extensionsز
+Step 3: Open the previously installed Visual Studio code, navigate to the left-hand side of the VS Code window, and access the Extensions Marketplace. Install the Python support and Git support extensions.
 Step 4: click on the "Code" button and select "Download ZIP" to download the ALPR project locally on your desktop.
 Step 5: Navigate to the left-hand side of the VS code window and access "SOURCE CONTROL", next select either "Open Folder" or "Clone Repository". If you have chosen "Open Folder", locate the folder of the ALPR project that you have previously downloaded and select it. Else, copy the following GitHub link:{https://github.com/bana9999/ALPR} and paste it in the "Clone Repository" button. Finally, you have successfully cloned the ALPR system.
 Step 6: Access the ALPR-model Juypter notebook in the ALPR-GUI folder of the cloned ALPR system  and run the entire notebook. 
