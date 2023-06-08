@@ -10,8 +10,11 @@ The ALPR project approach is to detect and recognize the license plate number, t
 
      1.The license plate needs to be detected and extracted from the overall image. This is done by using object detection method like using You-Only-Look-Once version 
      5(YOLOv5).
-     2. After extracting the license plate, individual characters of LP number need to be recognized, this is done by using integrating the Nanonets platform which provides
-     Optical Character Recognition (OCR) model.
+     
+     2. After extracting the license plate, individual characters of LP number need to be recognized, this is done by integrating the ALPR model with Nanonets, which is a  
+     website that provides a variety of AI tools and APIs for image extraction and enables the use of OCR technology, was used in order to complete the objective of the project 
+     by recognizing license plate characters.
+     
      3. The last phase is to retrieve the Owner's and Vehicle's information of the recognized LP by integrating the ALPR system with a database.
 # Dataset
 The following datasets have been used for different purposes:
@@ -37,7 +40,19 @@ Torch: is a popular open-source machine learning framework primarily used for de
 Tkinter: is a standard Python library used for creating graphical user interfaces (GUIs). It provides a set of tools and widgets for building interactive applications.`
 
 # Main Technologies used
+
 # Testing the ALPR system 
+To test the ALPR system , first install and run the ALPR system , so please refer to the following guide:
+Step 1:Download and install the Visual Studio Integrated Development Environment (IDE), from the following link:{https://code.visualstudio.com/download}.
+Step 2: Download and install Git from the following link:{https://git-scm.com/downloads}.
+Step 3: Open the previously installed Visual Studio code, navigate to the left-hand side of the VS Code window, and access the Extensions Marketplace. Install the Python support and Git support extensionsز
+Step 4: click on the "Code" button and select "Download ZIP" to download the ALPR project locally on your desktop.
+Step 5: Navigate to the left-hand side of the VS code window and access "SOURCE CONTROL", next select either "Open Folder" or "Clone Repository". If you have chosen "Open Folder", locate the folder of the ALPR project that you have previously downloaded and select it. Else, copy the following GitHub link:{https://github.com/bana9999/ALPR} and paste it in the "Clone Repository" button. Finally, you have successfully cloned the ALPR system.
+Step 6: Access the ALPR-model Juypter notebook in the ALPR-GUI folder of the cloned ALPR system as shown in Figure \ref{fig:Access ALPR-model} and run the entire notebook. 
+Step 7: Enter the username: "admin" and password: "$12345$" in the ALPR Login page.
+Step 8: Finally, you can click on the "Start" button to initialize the ALPR system, which will directly display the detected cropped license plate images along with the digital text of each image  Then, if you want to retrieve information about a specific detected cropped license plate image, you can just manually enter the LP number by clicking on the "Enter License Plate" button, selecting either "Retrieve Owner's Information" or "Retrieve Vehicle's Information from the selection box, and clicking on the "Check" button.
+
+
 
 
 
