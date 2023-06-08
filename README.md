@@ -54,6 +54,7 @@ Step 7: Enter the username: "admin" and password: "$12345$" in the ALPR Login pa
 Step 8: Finally, you can click on the "Start" button to initialize the ALPR system, which will directly display the detected cropped license plate images along with the digital text of each image  Then, if you want to retrieve information about a specific detected cropped license plate image, you can just manually enter the LP number by clicking on the "Enter License Plate" button, selecting either "Retrieve Owner's Information" or "Retrieve Vehicle's Information from the selection box, and clicking on the "Check" button.
 ![LP_Recognition_page](https://github.com/bana9999/ALPR/assets/129235769/35147b34-0712-45be-a4fa-2d248c2ff7cb)
 ![owner_info_page](https://github.com/bana9999/ALPR/assets/129235769/19a2a224-e8dd-40c0-9bbf-55495decb4e4)
+![Vehicle_info_page](https://github.com/bana9999/ALPR/assets/129235769/1e85f7d2-83e2-4a11-a22b-6e434a032976)
 
 
 
