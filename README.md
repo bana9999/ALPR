@@ -48,9 +48,11 @@ Step 2: Download and install Git from the following link:{https://git-scm.com/do
 Step 3: Open the previously installed Visual Studio code, navigate to the left-hand side of the VS Code window, and access the Extensions Marketplace. Install the Python support and Git support extensionsز
 Step 4: click on the "Code" button and select "Download ZIP" to download the ALPR project locally on your desktop.
 Step 5: Navigate to the left-hand side of the VS code window and access "SOURCE CONTROL", next select either "Open Folder" or "Clone Repository". If you have chosen "Open Folder", locate the folder of the ALPR project that you have previously downloaded and select it. Else, copy the following GitHub link:{https://github.com/bana9999/ALPR} and paste it in the "Clone Repository" button. Finally, you have successfully cloned the ALPR system.
-Step 6: Access the ALPR-model Juypter notebook in the ALPR-GUI folder of the cloned ALPR system as shown in Figure \ref{fig:Access ALPR-model} and run the entire notebook. 
+Step 6: Access the ALPR-model Juypter notebook in the ALPR-GUI folder of the cloned ALPR system  and run the entire notebook. 
 Step 7: Enter the username: "admin" and password: "$12345$" in the ALPR Login page.
+![ALPR_Login_page](https://github.com/bana9999/ALPR/assets/129235769/d13ed245-a045-4a57-9aa9-1d7a25e0b73a)
 Step 8: Finally, you can click on the "Start" button to initialize the ALPR system, which will directly display the detected cropped license plate images along with the digital text of each image  Then, if you want to retrieve information about a specific detected cropped license plate image, you can just manually enter the LP number by clicking on the "Enter License Plate" button, selecting either "Retrieve Owner's Information" or "Retrieve Vehicle's Information from the selection box, and clicking on the "Check" button.
+
 
 
 
