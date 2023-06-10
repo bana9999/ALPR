@@ -18,8 +18,10 @@ by recognizing license plate characters.
 # Dataset
 The following datasets have been used for different purposes:
 
-1.For license plate detection (YOLOv5) model : The dataset contains approximately 1300 annotated images of vehicles with license plates. The dataset can be found in the 
-following link: which includes the images in JPEG format and the annotated text files.
+1.For license plate detection (YOLOv5) model : The dataset, which contains approximately 1300 images, was divided into two parts: one for training, which contains the annotated images in JPEG format with their annotated text files.
+The dataset for training can be found at the following link:https://drive.google.com/drive/folders/1cVbuLZmEtlzywJprHiOJ6iYwP5k9u6Ec?usp=sharing
+The second part of the data is for testing and contains images in JPEG format.
+The dataset for testing can be found at the following link:https://drive.google.com/drive/folders/1tJC01XPuNkAqGy6Nfds_K898_qPularK?usp=sharing
 2.For Nanonets optical character  recognition (OCR)  model: The dataset contains approximately 508 cropped license plates that were previously detected and extracted by YOLOv5. 
  The dataset can be found at the following link: https://drive.google.com/drive/folders/1GUijXI5YcMgm8AR1X8dYW3M4hyvmW3r_?usp=sharing
 
