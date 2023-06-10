@@ -30,14 +30,23 @@ The dataset for testing can be found at the following link:https://drive.google.
 The ALPR system utilizes Python as its programming language, benefiting from Python's reputation for simplicity, readability, and a wide range of libraries. Python's versatility allows it to address various tasks, including application development, data processing, and automation, making it a suitable choice for the ALPR system.
 # Libraries Used
 OpenCV: is a library of programming functions mainly aimed at real-time computer vision. It eases the work when projects are based primarily on images or videos.
+
 PyTorch: is a popular open-source machine learning framework widely used for various artificial intelligence and deep learning tasks. PyTorch provides a flexible and dynamic programming interface that allows developers to efficiently build and train neural networks.
+
 Tensorflow: is a free and open-source software library for machine learning. It can be used across a range of tasks, but has a particular focus on training and inference of deep neural networks.
+
 Keras: is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
+
 Python Imaging Library(PIL): is a popular Python library used for image processing and manipulation. PIL provides comprehensive functions and methods for opening, manipulating, and saving many different image file formats.
+
 Torchvision: is a module in the PyTorch ecosystem specifically designed for computer vision tasks. It provides a wide range of utility functions, datasets, and pre-trained models to simplify and accelerate the development of computer vision models using PyTorch.
+
 Openpyxl: is used for working with Microsoft Excel files. It provides a convenient and efficient way to read, write, and modify Excel spreadsheets.
+
 Requests: used for making HTTP requests and working with web APIs. It provides a simple and intuitive interface to send HTTP requests.
+
 Torch: is a popular open-source machine learning framework primarily used for deep learning tasks. It provides a flexible and efficient platform for building, training, and deploying various neural network models.
+
 Tkinter: is a standard Python library used for creating graphical user interfaces (GUIs). It provides a set of tools and widgets for building interactive applications.`
 
 # Main Technologies used
@@ -51,13 +60,20 @@ For Character recognition: incorporating the trained optical character recogniti
 # Testing the ALPR system 
 To test the ALPR system , first install and run the ALPR system , so please refer to the following guide:
 Step 1:Download and install the Visual Studio Integrated Development Environment (IDE), from the following link:{https://code.visualstudio.com/download}.
+
 Step 2: Download and install Git from the following link:{https://git-scm.com/downloads}.
+
 Step 3: Open the previously installed Visual Studio code, navigate to the left-hand side of the VS Code window, and access the Extensions Marketplace. Install the Python support and Git support extensions.
+
 Step 4: click on the "Code" button and select "Download ZIP" to download the ALPR project locally on your desktop.
+
 Step 5: Navigate to the left-hand side of the VS code window and access "SOURCE CONTROL", next select either "Open Folder" or "Clone Repository". If you have chosen "Open Folder", locate the folder of the ALPR project that you have previously downloaded and select it. Else, copy the following GitHub link:{https://github.com/bana9999/ALPR} and paste it in the "Clone Repository" button. Finally, you have successfully cloned the ALPR system.
+
 Step 6: Access the ALPR-model Juypter notebook in the ALPR-GUI folder of the cloned ALPR system  and run the entire notebook. 
+
 Step 7: Enter the username: "admin" and password: "$12345$" in the ALPR Login page.
 ![ALPR_Login_page](https://github.com/bana9999/ALPR/assets/129235769/d13ed245-a045-4a57-9aa9-1d7a25e0b73a)
+
 Step 8: Finally, you can click on the "Start" button to initialize the ALPR system, which will directly display the detected cropped license plate images along with the digital text of each image  Then, if you want to retrieve information about a specific detected cropped license plate image, you can just manually enter the LP number by clicking on the "Enter License Plate" button, selecting either "Retrieve Owner's Information" or "Retrieve Vehicle's Information from the selection box, and clicking on the "Check" button.
 ![LP_Recognition_page](https://github.com/bana9999/ALPR/assets/129235769/35147b34-0712-45be-a4fa-2d248c2ff7cb)
 ![owner_info_page](https://github.com/bana9999/ALPR/assets/129235769/19a2a224-e8dd-40c0-9bbf-55495decb4e4)
