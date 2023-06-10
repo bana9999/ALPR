@@ -8,22 +8,20 @@ As the number of cars in Jordan keeps going up, it becomes increasingly difficul
 # Approach
 The ALPR project approach is to detect and recognize the license plate number, the following things need to be done:
 
-     1.The license plate needs to be detected and extracted from the overall image. This is done by using object detection method like using You-Only-Look-Once version 
-     5(YOLOv5).
-     
-     2. After extracting the license plate, individual characters of LP number need to be recognized, this is done by integrating the ALPR model with Nanonets, which is a  
-     website that provides a variety of AI tools and APIs for image extraction and enables the use of OCR technology, was used in order to complete the objective of the project 
-     by recognizing license plate characters.
-     
-     3. The last phase is to retrieve the Owner's and Vehicle's information of the recognized LP by integrating the ALPR system with a database.
+1.The license plate needs to be detected and extracted from the overall image. This is done by using object detection method like using You-Only-Look-Once version 
+5(YOLOv5).
+2. After extracting the license plate, individual characters of LP number need to be recognized, this is done by integrating the ALPR model with Nanonets, which is a  
+website that provides a variety of AI tools and APIs for image extraction and enables the use of OCR technology, was used in order to complete the objective of the project 
+by recognizing license plate characters.
+3. The last phase is to retrieve the Owner's and Vehicle's information of the recognized LP by integrating the ALPR system with a database.
+4. 
 # Dataset
 The following datasets have been used for different purposes:
 
-    1.For license plate detection (YOLOv5) model : The dataset contains approximately 1300 annotated images of vehicle with license plates.The dataset can be found in the 
-    following link: which includes the images of JPEG format and the annotated text files.
-    
-    2.For Nanonets optical character recognition(OCR) model: The dataset contains approximately 508 cropped license plate that was previously detected and extracted by YOLOv5. 
-    The dataset can be found in the following link
+1.For license plate detection (YOLOv5) model : The dataset contains approximately 1300 annotated images of vehicle with license plates.The dataset can be found in the 
+following link: which includes the images of JPEG format and the annotated text files.
+2.For Nanonets optical character recognition(OCR) model: The dataset contains approximately 508 cropped license plate that was previously detected and extracted by YOLOv5. 
+ The dataset can be found in the following link
 
 # Programming Language used
 The ALPR system utilizes Python as its programming language, benefiting from Python's reputation for simplicity, readability, and a wide range of libraries. Python's versatility allows it to address various tasks, including application development, data processing, and automation, making it a suitable choice for the ALPR system.
