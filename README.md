@@ -21,7 +21,7 @@ The following datasets have been used for different purposes:
 1.For license plate detection (YOLOv5) model : The dataset contains approximately 1300 annotated images of vehicle with license plates.The dataset can be found in the 
 following link: which includes the images of JPEG format and the annotated text files.
 2.For Nanonets optical character recognition(OCR) model: The dataset contains approximately 508 cropped license plate that was previously detected and extracted by YOLOv5. 
- The dataset can be found in the following link
+ The dataset can be found in the following link: https://drive.google.com/drive/folders/1GUijXI5YcMgm8AR1X8dYW3M4hyvmW3r_?usp=sharing
 
 # Programming Language used
 The ALPR system utilizes Python as its programming language, benefiting from Python's reputation for simplicity, readability, and a wide range of libraries. Python's versatility allows it to address various tasks, including application development, data processing, and automation, making it a suitable choice for the ALPR system.
