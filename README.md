@@ -78,9 +78,9 @@ Step 8: Finally, you can click on the "Start" button to initialize the ALPR syst
 
 ![LP_Recognition_page](https://github.com/bana9999/ALPR/assets/129235769/c7fed261-1a4a-42ff-bd60-aec0da4105ee)
 
-![owner_info_page](https://github.com/bana9999/ALPR/assets/129235769/19a2a224-e8dd-40c0-9bbf-55495decb4e4)
+![owner_info_page](https://github.com/bana9999/ALPR/assets/129235769/67b305a7-79d6-42d8-bdc3-7ba9e28c83f3)
 
-![Vehicle_info_page](https://github.com/bana9999/ALPR/assets/129235769/1e85f7d2-83e2-4a11-a22b-6e434a032976)
+![Vehicle_info_page](https://github.com/bana9999/ALPR/assets/129235769/e19b3fdc-f3d5-47d7-9ebb-b9d4cedcfeb9)
 
 
 
