@@ -72,8 +72,7 @@ Step 5: Navigate to the left-hand side of the VS code window and access "SOURCE 
 Step 6: Access the ALPR-model Juypter notebook in the ALPR-GUI folder of the cloned ALPR system  and run the entire notebook. 
 
 Step 7: Enter the username: "admin" and password: "$12345$" in the ALPR Login page.
-
-![ALPR_Login_page](https://github.com/bana9999/ALPR/assets/129235769/d13ed245-a045-4a57-9aa9-1d7a25e0b73a)
+![ALPR_Login_page](https://github.com/bana9999/ALPR/assets/129235769/73c14738-0920-4883-9639-3729ee404c96)
 
 Step 8: Finally, you can click on the "Start" button to initialize the ALPR system, which will directly display the detected cropped license plate images along with the digital text of each image  Then, if you want to retrieve information about a specific detected cropped license plate image, you can just manually enter the LP number by clicking on the "Enter License Plate" button, selecting either "Retrieve Owner's Information" or "Retrieve Vehicle's Information from the selection box, and clicking on the "Check" button.
 
