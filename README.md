@@ -1,5 +1,6 @@
 # Jordanian ALPR
 The objective of this project is to create a system that employs object detection and character recognition techniques to detect and recognize license plates from images.
+
 ![Empty_recog_page](https://github.com/bana9999/ALPR/assets/129235769/38974949-a84e-461a-9151-f1141a721ec8) 
 
 # Introduction
