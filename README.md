@@ -8,7 +8,6 @@ As the number of cars in Jordan keeps going up, it becomes increasingly difficul
 # Approach
 The ALPR project approach is to detect and recognize the license plate number, the following things need to be done:
 
-
 1.The license plate needs to be detected and extracted from the overall image. This is done by using an object detection method like using You-Only-Look-Once version 5(YOLOv5).
 
 2. After extracting the license plate, individual characters of the LP number need to be recognized, this is done by integrating the ALPR model with Nanonets, which is a website that provides a variety of AI tools and APIs for image extraction and enables the use of OCR technology, was used in order to complete the objective of the project by recognizing license plate characters.
