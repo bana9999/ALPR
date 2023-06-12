@@ -63,7 +63,7 @@ For Character recognition: incorporating the trained optical character recogniti
 3. Locate the "Input_camera_images" folder and insert the desired test images. Remember that this folder can hold a maximum of three images. Alternatively, you can use the three  test_example images already present in the "Input_camera_images" folder for evaluating the ALPR system.
 4. Open the "ALPR_model.ipynb" notebook.
 5. In the notebook, go to the third code section called the "detect_license_plate()" function. Replace the "model" variable with the correct path to the "yolov5" folder.
-6. In the notebook, go to the fifth code section called the "search_vehicle_information()" function. Also, go to the sixth code section called the "search_owner_information()"    function. Replace the "workbook" variable in both sections with the correct path to the "database" file.
+6. In the notebook, go to the fifth code section called the "search_vehicle_information()" function. Also, go to the sixth code section called the "search_owner_information()"    function. Replace the "workbook" variable in both sections with the correct path to the "database.xlsx" file.
 7. In the notebook, find the "start_license_plate_detection()" function. Replace the "folder_path" variable with the correct path to the "Input_camera_images" folder.           Additionally, update the "config_path" variable with the path to the "coco128.yaml" configuration file, and set the "weights_path" variable to the path of the "best8.pt" file.
 8. Finally, run the entire "ALPR_model.ipynb" notebook to access the ALPR GUI and evaluate the system.  
 
