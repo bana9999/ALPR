@@ -57,6 +57,19 @@ Overall, with the YOLOv5 architecture, the model is able to effectively capture 
 
 For Character recognition: incorporating the trained optical character recognition model via Nanonets, which is a platform that provides a variety of AI tools and APIs for image extraction and enables the use of OCR technology, was done in order to complete the objective of the project by recognizing the detected license plate characters. Looking at how nanonets work, little steps are applied to produce the result of the recognized license plate characters. It begins with the collection of labeled data specifically needed for the task; in the ALPR context, license plates are the required labeled data. This labeled data will serve as the basis for training the nanonets optical character recognition model. The next step is to extract the characters from the license plates using the data collected so far. Following character extraction, the OCR model is trained with labeled data. Using this technology, the ALPR system is able to recognize the characters in the detected license plate image.
 
+# To run the ALPR system
+1. Clone the ALPR GitHub project using any Integrated Development Environment (IDE) like Visual Studio Code, PyCharm, etc.
+2. Navigate to the "main" directory in the cloned project.
+3. Locate the "Input_camera_images" folder and insert the desired test images. Remember that this folder can hold a maximum of three images. Alternatively, you can use the three  test_example images already present in the "Input_camera_images" folder for evaluating the ALPR system.
+4. Open the "ALPR_model.ipynb" notebook.
+5. In the notebook, go to the third code section called the "detect_license_plate()" function. Replace the "model" variable with the correct path to the "yolov5" folder.
+6. In the notebook, go to the fifth code section called the "search_vehicle_information()" function. Also, go to the sixth code section called the "search_owner_information()"    function. Replace the "workbook" variable in both sections with the correct path to the "database" file.
+7. In the notebook, find the "start_license_plate_detection()" function. Replace the "folder_path" variable with the correct path to the "Input_camera_images" folder.           Additionally, update the "config_path" variable with the path to the "coco128.yaml" configuration file, and set the "weights_path" variable to the path of the "best8.pt" file.
+8. Finally, run the entire "ALPR_model.ipynb" notebook to access the ALPR GUI and evaluate the system.  
+
+
+
+
 # Testing the ALPR system 
 To test the ALPR system , first install and run the ALPR system , so please refer to the following guide:
 Step 1:Download and install the Visual Studio Integrated Development Environment (IDE), from the following link:{https://code.visualstudio.com/download}.
