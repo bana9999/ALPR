@@ -15,7 +15,6 @@ The ALPR project approach is to detect and recognize the license plate number, t
 
 # Dataset
 The following datasets have been used for different purposes:
-
 1.For license plate detection (YOLOv5) model : The dataset, which contains approximately 1300 images, was divided into two parts: one for training, which contains the annotated images in JPEG format with their annotated text files.
 The dataset for training can be found at the following link:https://drive.google.com/drive/folders/1cVbuLZmEtlzywJprHiOJ6iYwP5k9u6Ec?usp=sharing
 
@@ -26,8 +25,8 @@ The dataset for testing can be found at the following link:https://drive.google.
  The dataset can be found at the following link: https://drive.google.com/drive/folders/1GUijXI5YcMgm8AR1X8dYW3M4hyvmW3r_?usp=sharing
 
 # Programming Language used
-
 The ALPR system utilizes Python as its programming language, benefiting from Python's reputation for simplicity, readability, and a wide range of libraries. Python's versatility allows it to address various tasks, including application development, data processing, and automation, making it a suitable choice for the ALPR system.
+
 # Libraries Used
 OpenCV: is a library of programming functions mainly aimed at real-time computer vision. It eases the work when projects are based primarily on images or videos.
 
