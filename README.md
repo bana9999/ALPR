@@ -76,28 +76,17 @@ For Character recognition: incorporating the trained optical character recogniti
 8. Finally, run the entire "ALPR_model.ipynb" notebook to access the ALPR GUI and evaluate the system.  
 
 
-
-
-# Testing the ALPR system 
-To test the ALPR system , first install and run the ALPR system , so please refer to the following guide:
-Step 1:Download and install the Visual Studio Integrated Development Environment (IDE), from the following link:{https://code.visualstudio.com/download}.
-
-Step 2: Download and install Git from the following link:{https://git-scm.com/downloads}.
-
-Step 3: Open the previously installed Visual Studio code, navigate to the left-hand side of the VS Code window, and access the Extensions Marketplace. Install the Python support and Git support extensions.
-
-Step 4: click on the "Code" button and select "Download ZIP" to download the ALPR project locally on your desktop.
-
-Step 5: Navigate to the left-hand side of the VS code window and access "SOURCE CONTROL", next select either "Open Folder" or "Clone Repository". If you have chosen "Open Folder", locate the folder of the ALPR project that you have previously downloaded and select it. Else, copy the following GitHub link:{https://github.com/bana9999/ALPR} and paste it in the "Clone Repository" button. Finally, you have successfully cloned the ALPR system.
-
-Step 6: Access the ALPR-model Juypter notebook in the ALPR-GUI folder of the cloned ALPR system  and run the entire notebook. 
-
-Step 7: Enter the username: "admin" and password: "$12345$" in the ALPR Login page.
+# Evaluating the ALPR system example
+1. Run the ALPR system: Follow the instructions provided in the previous "To run the ALPR system" section to start the ALPR system. This will launch the "ALPR Login" page.
+2. Enter login credentials: On the "ALPR Login" page, enter the username as "admin" and the password as "$12345$". This will grant access to the ALPR system.
 ![ALPR_Login_page](https://github.com/bana9999/ALPR/assets/129235769/73c14738-0920-4883-9639-3729ee404c96)
-
-Step 8: Finally, you can click on the "Start" button to initialize the ALPR system, which will directly display the detected cropped license plate images along with the digital text of each image  Then, if you want to retrieve information about a specific detected cropped license plate image, you can just manually enter the LP number by clicking on the "Enter License Plate" button, selecting either "Retrieve Owner's Information" or "Retrieve Vehicle's Information from the selection box, and clicking on the "Check" button.
-
+3. After logging in, you will be redirected to the "license_plate_recognition" page.
+4. On the "license_plate_recognition" page, click on the "Start" button to initialize the ALPR system. This will trigger the license plate detection process.
+5. As the ALPR system is running, the screen will display the detected cropped license plate images. These images are sourced from the "Input_camera_images" folder. Alongside each license plate image, the system will also display the corresponding digital text associated with that particular license plate.
 ![LP_Recognition_page](https://github.com/bana9999/ALPR/assets/129235769/c7fed261-1a4a-42ff-bd60-aec0da4105ee)
+6. Retrieve information for a specific license plate: If you want to retrieve information about a particular detected license plate image, click on the "Enter License Plate" button. Manually enter the license plate number in the provided field.
+7. Select information retrieval type: Choose either "Retrieve Owner's Information" or "Retrieve Vehicle's Information" from the selection box based on the desired information.
+8. After selecting the information retrieval type, click on the "Check" button. The ALPR system will retrieve and display the requested information related to the specific license plate.
 
 ![owner_info_page](https://github.com/bana9999/ALPR/assets/129235769/67b305a7-79d6-42d8-bdc3-7ba9e28c83f3)
 
