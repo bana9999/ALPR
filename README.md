@@ -58,6 +58,7 @@ Overall, with the YOLOv5 architecture, the model is able to effectively capture 
 
 For Character recognition: incorporating the trained optical character recognition model via Nanonets, which is a platform that provides a variety of AI tools and APIs for image extraction and enables the use of OCR technology, was done in order to complete the objective of the project by recognizing the detected license plate characters. Looking at how nanonets work, little steps are applied to produce the result of the recognized license plate characters. It begins with the collection of labeled data specifically needed for the task; in the ALPR context, license plates are the required labeled data. This labeled data will serve as the basis for training the nanonets optical character recognition model. The next step is to extract the characters from the license plates using the data collected so far. Following character extraction, the OCR model is trained with labeled data. Using this technology, the ALPR system is able to recognize the characters in the detected license plate image.
 
+
 # To run the ALPR system
 1. Clone the ALPR GitHub project using any Integrated Development Environment (IDE) like Visual Studio Code, PyCharm, etc.
 2. Navigate to the "main" directory in the cloned project.
